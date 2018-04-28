@@ -10,8 +10,8 @@ from augment import INPUT_SHAPE, batch_generator
 data_dir = os.path.join(os.getcwd(), "IMG")
 TEST_SIZE = 0.2
 KEEP_PROB = 0.5
-LR = 0.01
-BATCH_SIZE = 40
+LR = 0.0001
+BATCH_SIZE = 32
 SAMPLE_PER_EPOCH = 20000
 N_EPOCHS = 10
 
