@@ -5,7 +5,8 @@ filename="image.jpg"
 def load_image(filename):
 	return mpimg.imread(filename.strip())
 
-print(load_image(filename))
+image = load_image(filename)
+print(image)
 
 plt.imshow(load_image(filename))
 plt.show()
