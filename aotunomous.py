@@ -1,5 +1,3 @@
-#parsing command line arguments
-import argparse
 #decoding camera images
 import base64
 #for frametimestamp saving
